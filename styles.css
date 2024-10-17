@@ -85,6 +85,10 @@ h1 {
   animation: fadeDown 1s ease-out forwards;
 }
 
+.left-aligned {
+  text-align: left;
+}
+
 .bottom-heading {
   color: #555;
   font-size: 1.8rem;
