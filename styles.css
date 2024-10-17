@@ -216,4 +216,25 @@ iframe {
   }
 }
 
+@media (max-width: 393px) {
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .left-aligned {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .bottom-heading {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+  }
+
+  body {
+    padding: 1rem;
+  }
+}
+
 
