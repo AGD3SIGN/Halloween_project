@@ -5,21 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/svg" href="Icons/pumpkin.svg">
     <title>Happy Halloween!</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="CSS/styles.css" />
   </head>
   <body>
-    <h1>Your Video Title</h1>
-    <div class="card">
+
+
+    <section id="cta">
+        <h1>Tap for a Halloween treat! 🎃</h1>
+    </section>
+
+
+    <h1 id="title">Your Video Title</h1>
+
+
+    <div id="card" class="card">
       <div class="video-container">
         <!-- CHANGE SRC TO YOUTUBE LINK -->
         <iframe
-          src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&mute=1"
+          id="youtube-video"
+          src="https://www.youtube.com/embed/Sagg08DrO5U?autoplay=1&mute=1"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen>
         </iframe>
       </div>
     </div>
-    <h2 class="bottom-heading">Your Bottom Heading</h2>
+
+
+    <h2 id="bottom-heading" class="bottom-heading">Your Bottom Heading</h2>
+
+
     <script src="JS/script.js"></script>
   </body>
 </html>

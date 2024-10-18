@@ -20,19 +20,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/svg" href="Icons/pumpkin.svg">
     <title>Happy Halloween!</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="CSS/styles.css" />
   </head>
 
   <body class="two">
-    <h1 class="left-aligned">
-      With each typed detail,<br />
-      A bridge forms in the ether—<br />
-      Support’s warm embrace.
+
+    
+    <section id="cta">
+        <h1>Tap for a Halloween treat! 🎃</h1>
+    </section>
+
+    <h1 id="title" class="left-aligned">
+        With each typed detail,<br />
+        A bridge forms in the ether—<br />
+        Support’s warm embrace.
     </h1>
-    <div class="card">
+
+    <div id="card" class="card">
       <div class="video-container">
         <!-- CHANGE SRC TO YOUTUBE LINK -->
         <iframe
+        id="youtube-video"
         src="https://www.youtube-nocookie.com/embed/BxqYUbNR-c0?autoplay=0"
         title="Sakanaction / wasurerarenaino　-Music Video-"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -40,7 +48,9 @@
       ></iframe>
       </div>
     </div>
-    <!-- <h2 class="bottom-heading">Your Bottom Heading</h2> -->
+
+    <h2 id="bottom-heading" class="bottom-heading"></h2>
+
     <script src="JS/script.js"></script>
   </body>
 </html>
