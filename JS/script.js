@@ -12,7 +12,7 @@ document.addEventListener('click', function() {
     var bottomHeading = document.getElementById('bottom-heading');
 
     // Autoplay video and unmute
-    iframe.src = iframe.src + "?autoplay=1&mute=0";
+    iframe.src = iframe.src.replace("mute=1", "mute=0");
 
     // Show/hide functionality
     cta.style.display = 'none';
