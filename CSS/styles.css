@@ -53,6 +53,10 @@ select {
   }
 }
 
+#title {
+    display: none;
+}
+
 body {
     background: #121212;
     color: #d1d1d1;
@@ -90,6 +94,7 @@ h1 {
 }
 
 .bottom-heading {
+  display: none;
   color: #555;
   font-size: 1.8rem;
   font-weight: 600;
@@ -114,6 +119,7 @@ h1 {
 }
 
 .card {
+  display: none;
   background: white;
   border-radius: 1rem;
   box-shadow: 0 10px 30px rgba(0,0,0,0.1);
